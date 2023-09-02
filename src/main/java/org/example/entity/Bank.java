@@ -24,19 +24,19 @@ public class Bank {
     }
 
     public void addUser (User user){
-        //userIds.add(user.getId);
+        userIds.add(user.getId);
     }
 
     public void deleteUser (User user){
-        //userIds.remove(user.getId);
+        userIds.remove(user.getId);
     }
 
     public void addAccount (Account account){
-        //userIds.add(account.getId);
+        userIds.add(account.getId);
     }
 
     public void deleteAccount (Account account){
-        //userIds.remove(account.getId);
+        userIds.remove(account.getId);
     }
 
 

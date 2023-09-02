@@ -19,14 +19,14 @@ public class User {
     public User(String fullName, Account account) {
         this.fullName = fullName;
         this.id = Create.id(User.class);
-        //accountIds.add(account.getId);
+        accountIds.add(account.getId);
     }
 
     public void addAccount (Account account){
-        //accountIds.add(account.getId);
+        accountIds.add(account.getId);
     }
 
     public void deleteAccount (Account account){
-        //accountIds.remove(account.getId);
+        accountIds.remove(account.getId);
     }
 }
