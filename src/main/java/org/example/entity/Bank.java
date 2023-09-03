@@ -1,11 +1,15 @@
 package org.example.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.ToString;
 import org.example.functions.Create;
 
 import java.util.List;
 
 @Getter
+@ToString
+@EqualsAndHashCode
 public class Bank {
     private int id;
     private String name;

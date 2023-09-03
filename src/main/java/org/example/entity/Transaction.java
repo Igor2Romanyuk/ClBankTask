@@ -1,6 +1,8 @@
 package org.example.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.ToString;
 import org.example.enums.TransactionStatus;
 import org.example.enums.TransactionTypes;
 import org.example.functions.Create;
@@ -8,6 +10,8 @@ import org.example.functions.Create;
 import java.time.LocalDateTime;
 
 @Getter
+@ToString
+@EqualsAndHashCode
 public class Transaction {
     private int id;
     private LocalDateTime dateTransaction;
